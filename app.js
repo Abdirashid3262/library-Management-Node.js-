@@ -13,7 +13,8 @@ const async = require("async");
 const app = express();
 
 /**
- * Make MongoDB connection
+ * Make MongoDB connection bellow
+ * 
  */
 (async () => {
     await mongoose.connect('mongodb://localhost:27017/lms');
